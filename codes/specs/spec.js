@@ -18,15 +18,15 @@ function index_1() {
     var scripts = document.getElementsByTagName('script');
     var length = scripts.length
 
-    var r1 = links.length == 2
+    var r1 = links.length >= 2
     var r2 = links[0].getAttribute('href') != links[1].getAttribute('href')
     var r3 = links[0].getAttribute('href') == "css/bootstrap.min.css" || links[0].getAttribute('href') == "css/bootstrap-theme.min.css";
     var r4 = links[1].getAttribute('href') == "css/bootstrap.min.css" || links[1].getAttribute('href') == "css/bootstrap-theme.min.css";
     var r5 = scripts[length - 4].getAttribute('src') != scripts[length - 3].getAttribute('src')
     var r6 = scripts[length - 4].getAttribute('src') == "js/jquery.min.js"
     var r7 = scripts[length - 3].getAttribute('src') == "js/bootstrap.min.js"
-    var r8 = scripts[length - 2].getAttribute('src') == "specs/specs.js"
-    var r9 = scripts[length - 1].getAttribute('src') == "specs/starter.js"
+    var r8 = scripts[length - 2].getAttribute('src') == "../specs/spec.js"
+    var r9 = scripts[length - 1].getAttribute('src') == "../specs/starter.js"
 
     console.log(r1 + ' ' + r2 + ' ' + r3 + ' ' + r4 + ' ' + r5 + ' ' + r6 + ' ' + r7 + ' ' + r8 + ' ' + r9)
     console.log(r1 && r2 && r3 && r4 && r5 && r6 && r7 && r8 && r9);
