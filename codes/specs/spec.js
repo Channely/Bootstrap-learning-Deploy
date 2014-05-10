@@ -1,14 +1,14 @@
 var send_signal_by_testing_result_of = {
-    '引入 - bootstrap': function () {
+    '引入样式库': function () {
         send_result_by(index_1())
     },
-    '容器 - container': function () {
+    '容器': function () {
         send_result_by(index_2_1())
     },
-    '背景区块 - jumbotron': function () {
+    '背景区块': function () {
         send_result_by(index_2_2())
     },
-    '栅格系统 - Grid System': function () {
+    '栅格系统': function () {
         send_result_by(index_2_3())
     }
 }
