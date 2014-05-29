@@ -1,0 +1,3 @@
+- bootstrap的container类(class)是非常有用的,它能在页面中创建一个居中的区域,然后我们能够把其他位置的内容放到里面.\n\r
+- 带有container类的div框等价于一个具有静态宽度并且margin值为auto的居中的div框.\n\r
+- bootstrap的container类的优点在于它是响应式的,它会以当前屏幕的宽度为基础计算出最佳的宽度予以应用.
